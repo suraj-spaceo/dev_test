@@ -1,0 +1,18 @@
+{
+    "name": "spaceo/dev_test",
+    "description": "Initial development package for understand the composer package flow.",
+    "type": "library",
+    "license": "GPL",
+    "authors": [
+        {
+            "name": "Suraj patel",
+            "email": "suraj.spaceo@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Devtest\\": "src/"
+        }
+    },
+    "require": {}
+}
